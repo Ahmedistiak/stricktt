@@ -1,0 +1,492 @@
+/*----------hedr strt--------------*/
+
+.hdrfull{
+
+			background: #f9f9f9;
+			width: 100%;
+			float: left;
+
+
+}
+
+
+.logo {
+
+
+	padding: 0.34in;
+    width: 100%;
+    float: left;
+    background: #f9f9f9;
+
+}
+
+/*----------hedr End--------------*/
+
+
+/*----------Banner start--------------*/
+
+
+.banner{
+
+	width: 100%;
+	float: left;
+	background: url("../img/bnr.png")no-repeat ;
+	background-size: cover;
+
+
+}
+
+
+.banner-main{
+
+	color: white;
+    font-family: Lato;
+    text-align: center;
+
+}
+
+.banner-main h1{
+
+	font-size: 100px;
+    font-weight: bold;
+    padding: 28px 0px;
+    margin: 146px 65px 0px 65px;
+   
+	
+}
+
+.banner-main p{
+
+	font-size: 18px;
+    margin: 39px 0;
+	
+}
+
+.undr{
+	display: block;
+    border-bottom: 2px solid #15a4fa;
+    width: 91%;
+    margin: 10px auto 30px;
+
+}
+
+ .banner-main button{
+
+ 	font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #14a3fa;
+    color: white;
+    padding: 13px 27px;
+    margin-top: 33px;
+    border-radius: 3px;
+    -webkit-transition: 0.7S ease;
+    
+
+}
+
+.banner-main button hover {
+	background-color: #14a3fa;
+
+	}
+
+.fa.fa-chevron-down{
+
+	color: white;
+	padding: 32px;
+
+}
+
+/*----------Banner End--------------*/
+
+/*----------Simple Strat--------------*/
+
+
+.simple{
+
+	width: 100%;
+	float: left;
+	background-color: #e9e9e9;
+
+}
+
+.simple-content{
+
+	padding: 75px 0;
+    text-align: center;
+    font-family: Lato;
+}
+
+.simple-content h1{
+
+	font-size: 36px;
+    color: #2d3950;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.simple-content p{
+
+
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+}
+
+/*----------Simple End-------------*/
+
+/*----------icons stat-------------*/
+
+.iconsss{
+
+
+	    padding: 88px 17px 88px 0;
+
+
+
+}
+
+
+
+.section-three {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.section-three::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section-three-content {
+    width: 33.33%;
+    float: left;
+    padding: 33px;
+    text-align: center;
+}
+
+.section-three-content img {
+    width: 100%;
+}
+
+.section-three-img {
+    background-image: linear-gradient(to right,
+            #48baff,
+            #48baff 50%,
+            #5fc3ff 50%);
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 25px 30px;
+    color: white;
+    font-size: 36px;
+}
+
+.section-three-heading {
+    font-size: 22px;
+    color: #2d3950;
+    margin-bottom: 12px;
+}
+
+.section-three-paragraph {
+    font-size: 15px;
+    color: #a1a1a1;
+    line-height: 1.5;
+}
+
+
+
+/*-------section four start--------*/
+
+.ego-part {
+
+    width: 100%;
+    float: left;
+    background: #E9E9E9;
+    padding: 68px 0px;
+}
+
+.ego-text {
+    text-align: center;
+}
+
+.ego-text h2{
+    font-size: 36px;
+    color: #2d3950;
+}
+
+.ego-text p{
+    color: #999999;
+    padding: 34px 0px;
+}
+
+.ego-headline {
+    width: 100%;
+    float: left;
+}
+
+.ego-one {
+    width: 31%;
+    float: left;
+    height: 245px;
+    margin: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.6s ease;
+}
+
+.ego-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.ego-two {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #03a9f491;
+    top: 0;
+    left: 100%;
+}
+
+.ego-one:hover .ego-two {
+	left: 0;
+
+}
+
+
+i.fa.fa-search-plus{
+    background: transparent;
+    padding: 8px;
+    border: 1px solid white;
+    font-size: 17px;
+    margin: 0px 5px 0px 126px;
+    color: white
+
+}
+
+
+i.fa.fa-link {
+	background: transparent;
+    padding: 8px;
+    border: 1px solid white;
+    font-size: 17px;
+    margin-top: 112px;
+    color: white;
+
+
+}
+
+/*------section four end--------*/
+
+/*------section five start-------*/
+
+
+.ugly-part {
+    background: url(../img/img7.png);
+	width: 100%;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 83px 0px;
+}
+
+
+
+.ugly-one {
+    text-align: center;
+}
+
+.ugly-one h2{
+    font-size: 46px;
+    color: #fff;
+    font-family: lato;
+}
+.ugly-one p{
+    color: #999999;
+    padding: 19px 0px 34px;
+}
+
+.ugly-headline {
+    width: 700px;
+}
+
+.form-control {
+    width: 66%;
+    margin: 0 auto;
+    padding: 0px 18px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #999999;
+}
+
+.form-text {
+    width: 66%;
+    margin: 0 auto;
+    padding: 0px 18px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    height: 215px;
+    font-family: lato;
+}
+
+.box {
+    float: left;
+    display: block;
+    margin-left: 191px;
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+.cb-box {
+    width: 16px;
+    height: 14px;
+}
+
+
+.box span {
+    padding: 0px 7px 0px 2px;
+}
+
+.form-btn {
+    display: block;
+    float: left;
+    margin-left: 440px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #14a3fa;
+    padding: 8px 45px;
+    border-radius: 3px;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.form-btn:hover {
+    background-color:#14a3fa;
+
+
+}
+
+/*--------section fifth start--------*/
+
+/*--------foot part start-----------*/
+
+.sick-part {
+    width: 100%;
+    float: left;
+}
+
+.copyright {
+    width: 50%;
+    color: #999999;
+    font-family: lato;
+    font-size: 14px;
+    margin: 48px 0px;
+    float: left;
+}
+
+
+.social {
+    width: 50%;
+    float: left;
+}
+
+.social ul {
+    display: inline-block;
+    margin: 31px 0px;
+    float: right;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 13px 0px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #15a4fa;
+    padding: 9px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.fa.fa-facebook {
+    text-decoration: none;
+    color: white;
+    background-color: #15a4fa;
+    padding: 7px 3px;
+    border-radius: 2px;
+    font-size: 13px;
+
+
+}
+
+
+
+
+
+/*-------foot part end-------*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+		.banner{
+
+			width: 100%;
+
+		}
+
+		.logo {
+
+
+			text-align: center;
+		}
+
+		.ego-part{
+
+			width: 100%;
+			float: left;
+		}
+
+		.ugly-part{
+
+			width: 100%;
+			float: left;
+			text-align: center;
+		}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+}
